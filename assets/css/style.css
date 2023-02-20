@@ -15,7 +15,6 @@ table{
 }
 
 /* header-top */
-
 .header-top{
     background-color: cadetblue;
 }
@@ -30,15 +29,20 @@ table{
     justify-content: center;
     padding: 15px 0;
     font-size: 15px;
+    min-height: 80px;
+    align-items: center;
 }
 
 .logo, .login{
     width: 20%;
+    height: 50px;
+    padding: 15px 0;
 }
 
 .link{
     width: 60%;
-    text-align: center;
+    height: 50px;
+    padding: 15px;
 }
 
 .login{
@@ -56,3 +60,24 @@ li {
     padding: 0 8px;
 }
 
+/* blue and pink */
+.header-bottom {
+    background-color: blue;
+    border-bottom: 1px solid black;
+    height: 400px;
+}
+  
+.header-box {
+    background-color: pink;
+    border: 2px dashed;
+    height: 300px;
+    width: 60%;
+    margin: 50px 0;
+  }
+
+  .blue{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* main */
