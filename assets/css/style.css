@@ -1,0 +1,58 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+/* header-top */
+
+.header-top{
+    background-color: cadetblue;
+}
+
+.header-top .container > * {
+    background-color: orange;
+    border: 1px dashed;
+}
+
+.header-top .container{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+.link{
+    width: 60%;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-left: 1em;
+    list-style: none;
+    padding: 0 8px;
+}
+
