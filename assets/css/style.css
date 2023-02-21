@@ -63,21 +63,54 @@ li {
 /* blue and pink */
 .header-bottom {
     background-color: blue;
-    border-bottom: 1px solid black;
     height: 400px;
 }
   
 .header-box {
     background-color: pink;
-    border: 2px dashed;
+    border: 1px dashed black;
     height: 300px;
     width: 60%;
     margin: 50px 0;
   }
 
-  .blue{
+.blue{
     display: flex;
     justify-content: center;
   }
 
-  /* main */
+/* main */
+section, .container{
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-child(even){
+    background-color: lightgray;
+}
+
+.big-box{
+    background-color: lightskyblue;
+    width: 60%;
+    min-height: 350px;
+}
+
+.small-box{
+    background-color: lightpink;
+    width: 40%;
+    min-height: 350px;
+}
+
+.green{
+    background-color: green;
+    border: 1px dashed black;
+    width: 100%;
+    margin: auto 0;
+}
+
+.box{
+    margin: 50px 0;
+    border: 1px dotted black;
+}
+
+/* footer */
