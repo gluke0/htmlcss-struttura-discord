@@ -30,7 +30,6 @@ table{
     padding: 15px 0;
     font-size: 15px;
     min-height: 80px;
-    align-items: center;
 }
 
 header .logo, .login{
@@ -164,4 +163,9 @@ footer .logo, .signup{
     padding: 5px 10px;
     background-color: orange;
     border: 1px dotted black;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
 }
