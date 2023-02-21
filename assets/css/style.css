@@ -33,7 +33,7 @@ table{
     align-items: center;
 }
 
-.logo, .login{
+header .logo, .login{
     width: 20%;
     height: 50px;
     padding: 15px 0;
@@ -115,3 +115,53 @@ section:nth-child(even){
 }
 
 /* footer */
+footer{
+    background-color: darkslategray;
+}
+
+.footer-top > *{
+    min-height: 600px;
+    border: 1px dashed black;
+}
+
+.footer-top .container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-box{
+    width: 30%;
+    min-height: 450px;
+    border: 1px dotted black;
+    background-color: pink;
+    margin: 10px 0 20px 0;
+}
+
+.footer-big{
+    display: flex;
+    width: calc(100% - 30%);
+    margin: 10px 0 20px 0;
+}
+
+.footer-small{
+    width: 25%;
+    border: 1px dotted white;
+    background-color: mediumaquamarine;
+}
+
+.footer-bigger{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+    margin-top: 20px
+}
+
+footer .logo, .signup{
+    padding: 5px 10px;
+    background-color: orange;
+    border: 1px dotted black;
+}
